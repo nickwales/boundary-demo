@@ -28,7 +28,7 @@ terraform {
     }
   }
   cloud {
-    organization = "swhashi"
+    organization = "nickwales"
     workspaces {
       name = "boundary-demo-eks"
     }
