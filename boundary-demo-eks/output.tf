@@ -18,7 +18,7 @@ output "worker_ip_address" {
   value       = aws_instance.worker.private_ip
 }
 
-output "oidc_auth_method" {
-  description = "OIDC Auth Method ID"
-  value       = boundary_auth_method_oidc.oidc_auth_method.id
-}
+# output "oidc_auth_method" {
+#   description = "OIDC Auth Method ID"
+#   value       = boundary_auth_method_oidc.oidc_auth_method.id
+# }
