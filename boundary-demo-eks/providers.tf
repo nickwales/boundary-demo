@@ -27,12 +27,12 @@ terraform {
       version = "~> 3.14.0"
     }
   }
-  cloud {
-    organization = "nickwales"
-    workspaces {
-      name = "boundary-demo-eks"
-    }
-  }
+  # cloud {
+  #   organization = "nickwales"
+  #   workspaces {
+  #     name = "boundary-demo-eks"
+  #   }
+  # }
 }
 
 provider "aws" {
