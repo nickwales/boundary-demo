@@ -60,8 +60,8 @@ provider "okta" {
 }
 
 provider "vault" {
-  address   = data.tfe_outputs.boundary_demo_init.values.vault_pub_url
-  token     = data.tfe_outputs.boundary_demo_init.values.vault_token
+  # address   = data.tfe_outputs.boundary_demo_init.values.vault_pub_url
+  # token     = data.tfe_outputs.boundary_demo_init.values.vault_token
   namespace = "admin"
 }
 
