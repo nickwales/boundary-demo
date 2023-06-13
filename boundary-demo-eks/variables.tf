@@ -1,7 +1,7 @@
 variable "region" {
   type        = string
   description = "The region to create instrastructure in"
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 
 variable "boundary_password" {
